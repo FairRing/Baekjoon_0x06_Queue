@@ -46,7 +46,7 @@ class Queue2 {
 
 }
 
-public class Main {
+public class MainQueue2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -54,11 +54,11 @@ public class Main {
         int n = 0;
         String order = "";
 
-        Queue2 q = null;
+        Card q = null;
         while ((n < 1) || (n > 2000000)) {
             n = Integer.parseInt(br.readLine());
             if ((n > 0) || (n < 2000001)) {
-                q = new Queue2(n);
+                q = new Card(n);
             }
         }
 

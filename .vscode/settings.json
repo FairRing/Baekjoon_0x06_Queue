@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "Queue/src",
-        "Queue2/src"
+        "Queue2/src",
+        "Card2/src"
     ]
 }
